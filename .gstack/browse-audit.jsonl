@@ -1,0 +1,5 @@
+{"ts":"2026-06-08T09:34:59.431Z","cmd":"goto","args":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","origin":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","durationMs":372,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-08T09:35:03.706Z","cmd":"viewport","args":"1440x900","origin":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-08T09:35:03.916Z","cmd":"screenshot","args":"/tmp/preview-hero.png","origin":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","durationMs":173,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-08T09:35:20.641Z","cmd":"js","args":"document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => el.classList.add('visible'))","origin":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","durationMs":4,"status":"ok","hasCookies":false,"mode":"launched"}
+{"ts":"2026-06-08T09:35:25.826Z","cmd":"screenshot","args":"/tmp/preview-full.png","origin":"file:///Users/ubeyd/Desktop/kirogluhukuk/index.html","durationMs":218,"status":"ok","hasCookies":false,"mode":"launched"}
