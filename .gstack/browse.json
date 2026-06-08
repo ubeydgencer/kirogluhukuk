@@ -1,9 +1,0 @@
-{
-  "pid": 34068,
-  "port": 11346,
-  "token": "f691d9f9-265f-428b-bdf5-8a9e1c0f3d40",
-  "startedAt": "2026-06-08T09:34:58.941Z",
-  "serverPath": "/Users/ubeyd/.claude/skills/gstack/browse/src/server.ts",
-  "mode": "launched",
-  "configHash": "303a7eeccc03078b"
-}
