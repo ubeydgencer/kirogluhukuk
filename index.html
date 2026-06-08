@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Av. Aslıhan Kıroğlu | Hukuk Bürosu</title>
   <meta name="description" content="Av. Aslıhan Kıroğlu Hukuk Bürosu – Bakırköy, İstanbul. Aile, iş, ceza ve gayrimenkul hukuku alanlarında profesyonel hukuki danışmanlık." />
+  <link rel="icon" type="image/png" sizes="32x32" href="kiroglu-logo-favicon-32_32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="kiroglu-logo-favicon-180_180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="kiroglu-logo-favicon-192_192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -53,15 +56,22 @@
     }
 
     .nav-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.3rem;
-      font-weight: 500;
-      color: var(--white);
-      letter-spacing: 0.04em;
+      display: flex;
+      align-items: center;
       text-decoration: none;
     }
 
-    .nav-logo span { color: var(--teal); }
+    .nav-logo img {
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+      filter: brightness(0) invert(1);
+      transition: filter 0.4s;
+    }
+
+    nav.scrolled .nav-logo img {
+      filter: brightness(0) invert(1);
+    }
 
     .nav-links {
       display: flex;
@@ -952,7 +962,9 @@
 
   <!-- ─── NAVBAR ─────────────────────────────────────────────── -->
   <nav id="navbar">
-    <a href="#hero" class="nav-logo">Kıroğlu <span>Hukuk</span></a>
+    <a href="#hero" class="nav-logo">
+      <img src="kiroglu-logo-yatay-400_120.png" alt="Kıroğlu Hukuk" />
+    </a>
     <ul class="nav-links" id="navLinks">
       <li><a href="#about"    onclick="closeMenu()">Hakkımda</a></li>
       <li><a href="#practice" onclick="closeMenu()">Uzmanlık</a></li>
@@ -1286,7 +1298,7 @@
 
   <!-- ─── FOOTER ──────────────────────────────────────────────── */
   <footer>
-    <span class="footer-brand">Kıroğlu <span>Hukuk</span> Bürosu</span>
+    <img src="kiroglu-logo-yatay-400_120.png" alt="Kıroğlu Hukuk" style="height:48px;width:auto;opacity:0.7;margin-bottom:0.8rem;display:block;margin-left:auto;margin-right:auto;" />
     <strong>Av. Aslıhan Kıroğlu</strong><br />
     İstanbul Barosu'na kayıtlı avukat<br /><br />
     © 2024 Kıroğlu Hukuk Bürosu · Tüm hakları saklıdır.<br />
